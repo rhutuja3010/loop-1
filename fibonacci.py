@@ -1,10 +1,10 @@
-fibonacci=int(input("enter the number"))
-a=0
-b=1
-i=0
-while i<=fibonacci:
-    print(i)
-    a=b
-    b=i
-    i=a+b
+fibonacci=int(input("enter the number: "))
+x=0
+y=1
+z=0
+while z<=fibonacci:
+    print(z)
+    x=y
+    y=z
+    z=x+y
     

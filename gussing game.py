@@ -1,16 +1,16 @@
-geuss_number=int(input("enter the geuss number"))
+guess_number = int(input("enter the guess number: "))
 i=1
-while i<5:
-    if geuss_number == 5:
-        print("congratulation, your geuss is correct")
+while i < 3:
+    if guess_number == 5:
+        print("congratulation, your guess is correct")
         break
     else: 
-        print("sorry, your guss is wrong")   
-    agin_geuss_number=int(input("enter the geuss number"))
-    if agin_geuss_number == 5:
+        print("sorry, your guess is wrong")   
+    again_guess_number=int(input("enter the geuss number"))
+    if again_guess_number == 5:
         print("congratulation, your geuss is correct")
         break
-    i=i+1
+    i+=1
         
         
     

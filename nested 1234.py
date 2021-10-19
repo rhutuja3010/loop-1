@@ -6,4 +6,15 @@ while i<=5:
      j=j+1
  print()
  i=i+1
+
+
+
+# i=5
+# while i<=5:
+#  j=5
+#  while j>=i:
+#     print(j,end="")
+#     j-=1
+#  print()
+#  i-=1
     
